@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'last-set-of-3';
+  src:  url('fonts/last-set-of-3.eot?cd0xjb');
+  src:  url('fonts/last-set-of-3.eot?cd0xjb#iefix') format('embedded-opentype'),
+    url('fonts/last-set-of-3.ttf?cd0xjb') format('truetype'),
+    url('fonts/last-set-of-3.woff?cd0xjb') format('woff'),
+    url('fonts/last-set-of-3.svg?cd0xjb#last-set-of-3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'last-set-of-3' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Icon-Stroke-2:before {
+  content: "\e900";
+}
+.icon-Icon-Stroke:before {
+  content: "\e901";
+}
+.icon-Icon-Stroke-final:before {
+  content: "\e911";
+}
+.icon-Icon-Stroke-3:before {
+  content: "\e902";
+}

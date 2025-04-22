@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Feedback-section-icons';
+  src:  url('fonts/Feedback-section-icons.eot?elcq8f');
+  src:  url('fonts/Feedback-section-icons.eot?elcq8f#iefix') format('embedded-opentype'),
+    url('fonts/Feedback-section-icons.ttf?elcq8f') format('truetype'),
+    url('fonts/Feedback-section-icons.woff?elcq8f') format('woff'),
+    url('fonts/Feedback-section-icons.svg?elcq8f#Feedback-section-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Feedback-section-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Exclude:before {
+  content: "\e901";
+}
+.icon-Exclude-1:before {
+  content: "\e902";
+}
+.icon-Icon-Stroke:before {
+  content: "\e903";
+}
+.icon-Icon-Stroke-1:before {
+  content: "\e904";
+}
+.icon-Icon-Stroke-2:before {
+  content: "\e905";
+}
+.icon-Icon-Stroke-3:before {
+  content: "\e906";
+}
+.icon-Icon-Stroke-4:before {
+  content: "\e907";
+}
+.icon-Icon-Stroke-5:before {
+  content: "\e908";
+}
+.icon-Icon-Stroke-6:before {
+  content: "\e909";
+}
